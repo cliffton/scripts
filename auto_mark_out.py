@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import *
-
+import time
 
 username_id = 'User_Name'
 password_id = 'Password'
@@ -26,6 +26,7 @@ if 'Quick Mark In and Out' == str(driver.title):
         mark_out_div = driver.find_element_by_id(markout_id)
         mark_out_ele = mark_out_div.find_element_by_link_text(markout_link_txt)
         mark_out_ele.click()
+        time.sleep(60)
         driver.close()
     finally:
         driver.quit()
