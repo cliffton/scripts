@@ -3,11 +3,12 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+from config import *
 
 username_id = 'User_Name'
 password_id = 'Password'
 markin_link_txt = 'Mark In'
+
 
 driver = webdriver.Firefox()
 driver.get(home)
