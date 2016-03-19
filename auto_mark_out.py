@@ -30,3 +30,16 @@ if 'Quick Mark In and Out' == str(driver.title):
         driver.close()
     finally:
         driver.quit()
+
+elif 'Welcome' == str(driver.title):
+    try:
+        element = WebDriverWait(driver, 60).until(
+            EC.presence_of_element_located((By.ID, 'inout'))
+        )
+        mark_out_div = driver.find_element_by_id('inout')
+        mark_out_ele = mark_out_div.find_element_by_link_text('Now')
+        mark_out_ele.click()
+        time.sleep(60)
+        driver.close()
+    finally:
+        driver.quit()
