@@ -1,5 +1,6 @@
 import requests
 from secs import *
+import smtplib
 
 
 def send_sms():
@@ -11,7 +12,17 @@ def send_sms():
         pass
 
 
-def send_email():
+def send_email(date_str):
+    fromaddr = cliff
+    toaddrs = kev
+    msg = 'Appointment Available for %s' % date_str
+    username = cliff
+    password = 'pwd'
+    server = smtplib.SMTP('smtp.gmail.com:587')
+    server.starttls()
+    server.login(username, password)
+    server.sendmail(fromaddr, toaddrs, msg)
+    server.quit()
     print "Sending send_email"
 
 
@@ -42,5 +53,5 @@ date_str = resp.content[index:index + 53]
 print date_str
 value = date_str.find('May')
 if value > 0:
-    send_email()
+    send_email(date_str)
     send_sms()
