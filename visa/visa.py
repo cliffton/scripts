@@ -26,6 +26,7 @@ def send_email(date_str):
 
         print "Sending send_email"
     except Exception, e:
+        print e
         pass
 
 
