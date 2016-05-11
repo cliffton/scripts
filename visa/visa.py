@@ -13,17 +13,20 @@ def send_sms():
 
 
 def send_email(date_str):
-    fromaddr = cliff
-    toaddrs = kev
-    msg = 'Appointment Available for %s' % date_str
-    username = cliff
-    password = 'pwd'
-    server = smtplib.SMTP('smtp.gmail.com:587')
-    server.starttls()
-    server.login(username, password)
-    server.sendmail(fromaddr, toaddrs, msg)
-    server.quit()
-    print "Sending send_email"
+    try:
+        fromaddr = cliff
+        toaddrs = kev
+        msg = 'Appointment Available for %s' % date_str
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(cliff, pwd)
+
+        server.sendmail(fromaddr, toaddrs, msg)
+        server.quit()
+
+        print "Sending send_email"
+    except Exception, e:
+        pass
 
 
 cookies = {
