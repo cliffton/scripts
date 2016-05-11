@@ -39,6 +39,7 @@ resp = requests.get(
 
 index = resp.content.find('First Available Appointment Is ')
 date_str = resp.content[index:index + 53]
+print date_str
 value = date_str.find('May')
 if value > 0:
     send_email()
