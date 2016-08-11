@@ -35,7 +35,7 @@ def send_email():
 
 resp = requests.get('http://coldplay.com/tour/')
 print "got resp"
-value = resp.content.find('India')
+value = resp.content.find('Australia')
 
 if value > 0:
     send_email()
