@@ -7,6 +7,7 @@ def send_sms():
     print "Sending SMS"
     try:
         for num in numbers:
+            print "Sending %s" % num
             sms_url = GUPSHUP_SMS_URL.format(mobile_no=num)
             requests.get(sms_url)
     except Exception, e:
