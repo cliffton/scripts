@@ -1,0 +1,13 @@
+{
+  "Accept": "*/*",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+  "Connection": "keep-alive",
+  "Content-Length": "1876",
+  "Content-Type": "application/x-www-form-urlencoded",
+  "Cookie": "__qca=P0-489312702-1503520668649; site=http%3A%2F%2Fist.rit.edu%2Findex.php; __utma=242358273.2126400897.1502651783.1507737812.1509991807.3; __utmz=242358273.1509991807.3.3.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); LPVID=A2NzY4NTEyZTdiYjJmODQ3; PS_DEVICEFEATURES=width:1366 height:768 pixelratio:1 touch:0 geolocation:1 websockets:1 webworkers:1 datepicker:1 dtpicker:1 timepicker:1 dnd:1 sessionstorage:1 localstorage:1 history:1 canvas:1 svg:1 postmessage:1 hc:0 maf:0; _ga=GA1.2.2126400897.1502651783; _gid=GA1.2.1862784250.1510467789; _shibsession_63616d70757368747470733a2f2f63616d7075732e7269742e6564752f73686962626f6c657468=_5addc506f64ffa7afd9a286e90bda2e1; BIGipServer~Private~mycampusadmin_rit_edu_20010=rd2o00000000000000000000ffff819bb853o20026; aupodritx33-20026-PORTAL-PSJSESSIONID=DPG2C8XSHW9brCDVRUYwitso7I3vEXem!1870222374; ExpirePage=https://campus.rit.edu/psp/PRITXJ/; PS_LOGINLIST=https://campus.rit.edu/PRITXJ; PS_TOKEN=pwAAAAQDAgEBAAAAvAIAAAAAAAAsAAAABABTaGRyAk4AbQg4AC4AMQAwABRInkWA3TlaSDtC3ZIyqcIuNl4rEGcAAAAFAFNkYXRhW3icHYw7CoAwFAQnUazEmxjyMQYP4KcSUXsLwc4bejgf2WK2GHZfoCy0UtKfJqe+eehJOCLVyMpMs3EwcXKxsNN5rOhEK3SZQWhlYOjwQi8XhiGbKB3gB2pjC0k=; SignOnDefault=cf6715; ps_theme=node:HRMS portal:EMPLOYEE theme_id:DEFAULT_THEME_CLASSIC accessibility:N; psback=%22%22url%22%3A%22https%3A%2F%2Fcampus.rit.edu%2Fpsc%2FPRITXJ%2FEMPLOYEE%2FHRMS%2Fc%2FSA_LEARNER_SERVICES_2.SSR_SSENRL_CART.GBL%3FPage%3DSSR_SSENRL_CART%26Action%3DA%26ExactKeys%3DY%26ACAD_CAREER%3DGRAD%26EMPLID%3D580000313%26INSTITUTION%3DRIT01%26STRM%3D2175%26TargetFrameName%3DNone%22%20%22label%22%3A%22Enrollment%20Shopping%20Cart%22%20%22origin%22%3A%22PIA%22%20%22layout%22%3A%220%22%22; PS_TOKENEXPIRE=13_Nov_2017_16:37:50_GMT",
+  "Host": "campus.rit.edu",
+  "Origin": "https://campus.rit.edu",
+  "Referer": "https://campus.rit.edu/psc/PRITXJ/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES_2.SSR_SSENRL_CART.GBL?Page=SSR_SSENRL_CART&Action=A&ExactKeys=Y&ACAD_CAREER=GRAD&EMPLID=580000313&INSTITUTION=RIT01&STRM=2175&TargetFrameName=None",
+  "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36"
+}
